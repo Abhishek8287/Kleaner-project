@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: aliceblue;
+}
+.child{
+    margin-left:250px;
+    width: 60%;
+    margin-top: 100px;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    
+    background-color: rgb(214, 215, 214);
+    box-shadow: 0 0 10px 2px rgb(168, 165, 165);
+}
+
+.child .sub-child{
+    width:450px ;
+    height: 75%;
+    border: 2px solid red ;
+    margin: 20px;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.child .sub-child img{
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.child .rest{
+    margin: 20px;
+    line-height: 2;
+}
+.child .rest span{
+    margin: 20px;
+    color: yellow;
+}
+
+.child .sub-child span{
+    color: yellow;
+}
+
+.container2 .sub{
+    margin-left: 250px;
+    margin-top: 100px;
+    width:60%;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid red;
+    background-color: rgb(6, 253, 6);
+    box-shadow: 0 0 10px 2px rgb(168, 165, 165);
+}
+
+.refer{
+    margin: 15px;
+}
+
+.refer button{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.container3{
+    margin-top: 30px;
+    text-align: center;
+}
+

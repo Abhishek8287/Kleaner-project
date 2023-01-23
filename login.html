@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-container">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="user-Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check"> <span>Remember</span>
+                <a href="Dashboard.html"><button type="button" class="button-check">login</button></a>
+            </form>
+            <form id="registre" class="input-group">
+                <input type="text" class="input-field" placeholder="user-Id" required>
+                <input type="text" class="input-field" placeholder="Enter email" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="check"> <span>Terms and Condition</span>
+                <button type="button" class="button-check" class="margin-register" onclick="take()">register</button>
+            </form>
+
+        </div>
+
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("registre");
+        var z = document.getElementById("btn");
+        
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+            
+        }
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+
+        }
+
+        
+        function take(){
+            alert("You are registered");
+        }
+
+
+    </script>
+    
+</body>
+</html>

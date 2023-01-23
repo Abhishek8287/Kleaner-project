@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Contact us</h1>
+      <p>
+        Do you have any questions? Please do not hesitate to contact us directly.<br> Our team will come back to you within a matter of hours to help you.       
+      </p>
+    </div>
+
+    <div class="coatainer">
+      <div class="left">
+        <div class="text">
+          <div class="address margin">
+            
+            <h2><span>Address</span></h2>
+            <p>
+              Rajeev gandhi , infotech park , Hinjawadi<br>phase1 , pune ,maharastra 400151. 
+            </p>
+          </div>
+        </div>
+        <div class="text">
+          <div class="phone margin">
+            <h2><span>Phone-number</span></h2>
+            <p>+91-828745612</p>
+          </div>
+        </div>
+        <div class="text">
+          <div class="gmail margin">
+            <h2><span>Gmail</span></h2>
+            <p>abhishek8287@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <form>
+            <h2><span class="first">Send message</span></h2>
+            <div class="input-box spacing">
+                <div class="fill">
+                    <input type="text" name="" required="required>">
+                </div>
+                <spna class="write">Full Name</spna>
+            </div>
+            <div class="input-box spacing">
+                <div class="fill">
+                    <input type="text" name="" required="required>">
+                </div>
+                <spna class="write">Email</spna>
+            </div>
+            <div class="input-box spacing">
+                <div class="fill">
+                    <input type="text" name="" required="required>">
+                </div>
+                <spna class="write">Send message</spna>
+                <button id="button" onclick="send()"><span>Send</span></button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script>
+    function send(){
+      alert("Message has been sent");
+    }
+  </script>
+</html>
